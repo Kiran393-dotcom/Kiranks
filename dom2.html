@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id='one'>Content from here will store in variable called element and then will be displayed in console</h1>
+    <div id="greeting">Hello,User</div>
+    <button onclick="changeGreeting()">Change Greeting
+</button>
+</body>
+<script>
+    // let element = document.getElementById("one");
+    // console.log(element.innerHTML);
+    function changeGreeting() {
+        document.getElementById('greeting').innerHTML = "Hello,Kiran"
+    }
+</script>
+<button onclick="handleClick()">Click Me</button>
+
+</html>
